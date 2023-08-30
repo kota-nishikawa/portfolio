@@ -8,7 +8,7 @@ function App() {
     '/images/1poto.jpg',
     '/images/2poto.jpg',
     '/images/sam.jpg',
-    '/images/sam.jpg',
+    '/images/sam2.jpg',
     // 他の画像...
   ];
 
