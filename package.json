@@ -2,7 +2,7 @@
   "name": "image-display",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:/kota-nishikawa.github.io/portfolio/",
+  "homepage": "https://kota-nishikawa.github.io/portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@testing-library/jest-dom": "^5.17.0",

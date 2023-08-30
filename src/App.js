@@ -5,10 +5,10 @@ import './App.css';
 function App() {
   // 仮の画像データ
   const images = [
-    'poto1260700.jpg',
-    'poto1260700.jpg',
-    'poto1260700.jpg',
-   'poto1260700.jpg'
+    '/images/1poto.jpg',
+    '/images/2poto.jpg',
+    '/images/sam.jpg',
+    '/images/sam.jpg',
     // 他の画像...
   ];
 
@@ -17,7 +17,7 @@ function App() {
 
       {images.map((image, index) => (
         <Grid item xs={12} sm={6} md={6} key={index}>
-          <img src={`/${image}`} alt={`Image ${index + 1}`} className="responsive-image" />
+          <img src={process.env.PUBLIC_URL + image} alt={`Image ${index + 1}`} className="responsive-image" />
         </Grid>
       ))}
     </Grid>
