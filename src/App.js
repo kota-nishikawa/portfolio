@@ -7,6 +7,7 @@ function App() {
   const images = [
     '/images/1poto.jpg',
     '/images/2poto.jpg',
+    '/images/3poto.jpg',
     '/images/sam.jpg',
     '/images/sam2.jpg',
     // 他の画像...
@@ -17,7 +18,7 @@ function App() {
 
       {images.map((image, index) => (
         <Grid item xs={12} sm={6} md={6} key={index}>
-          <img src={process.env.PUBLIC_URL + image} alt={`Image ${index + 1}`} className="responsive-image" />
+          <img src={process.env.PUBLIC_URL + image} alt={`portfolio ${index + 1}`} className="responsive-image" />
         </Grid>
       ))}
     </Grid>
